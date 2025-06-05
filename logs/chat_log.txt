@@ -4,6 +4,3 @@
 2025-05-31 20:12:09.871308 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
 2025-05-31 20:12:17.036303 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
 2025-05-31 20:12:25.098262 | shambhavi.k2024@gmail.com | USER: hello | BOT: Knowledge base not available. Please try again later.
-2025-06-05 16:44:21.153728 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
-2025-06-05 16:44:28.984156 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
-2025-06-05 16:44:36.830907 | shambhavi.k2024@gmail.com | USER: hello | BOT: Knowledge base not available. Please try again later.
