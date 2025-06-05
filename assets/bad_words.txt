@@ -1,0 +1,4 @@
+badword1
+badword2
+abuse1
+abuse2

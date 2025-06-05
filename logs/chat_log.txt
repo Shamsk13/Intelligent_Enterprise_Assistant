@@ -1,0 +1,6 @@
+2025-05-30 22:01:56.372844 | shambhavi.k2024@gmail.com | USER: what are our HR policies? | BOT: Knowledge base not available. Please try again later.
+2025-05-30 22:02:05.424573 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
+2025-05-30 22:02:34.675123 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
+2025-05-31 20:12:09.871308 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
+2025-05-31 20:12:17.036303 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
+2025-05-31 20:12:25.098262 | shambhavi.k2024@gmail.com | USER: hello | BOT: Knowledge base not available. Please try again later.
