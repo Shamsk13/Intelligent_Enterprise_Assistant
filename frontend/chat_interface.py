@@ -1,14 +1,11 @@
-
-
-
+# --- frontend/chat_interface.py ---
+import streamlit as st
 from backend.chatbot_engine import query_knowledge_base
 from backend.profanity_filter import contains_profanity
 from backend.logger import log_chat
-import streamlit as st
 
 def chat_interface():
-    st.subheader("💬 Chat Assistant")
-
+    st.subheader("💬 Chat Interface")
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
 
@@ -16,11 +13,10 @@ def chat_interface():
         role = "🧑‍💼 You" if chat["sender"] == "user" else "🤖 Assistant"
         st.markdown(f"**{role}:** {chat['message']}")
 
-    user_input = st.text_input("Type your question here:")
-
+    user_input = st.text_input("Type your message:")
     if st.button("Send") and user_input.strip():
         if contains_profanity(user_input):
-            st.warning("⚠️ Please avoid using inappropriate language.")
+            st.warning("Please avoid inappropriate language.")
             return
 
         st.session_state.chat_history.append({"sender": "user", "message": user_input})
@@ -29,8 +25,4 @@ def chat_interface():
 
         email = st.session_state.get("email", "anonymous")
         log_chat(email, user_input, response)
-
         st.experimental_rerun()
-
-
-

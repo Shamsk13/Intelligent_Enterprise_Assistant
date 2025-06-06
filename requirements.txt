@@ -1,6 +1,9 @@
+# --- requirements.txt ---
 streamlit
-docx2txt
+faiss-cpu
+sentence-transformers
+langchain
+langchain-community
+ollama
 PyPDF2
-yake
-transformers
-torch  # Required for transformers
+docx2txt
