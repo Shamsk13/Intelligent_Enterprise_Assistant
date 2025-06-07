@@ -5,3 +5,4 @@
 2025-05-31 20:12:17.036303 | shambhavi.k2024@gmail.com | USER: hi | BOT: Knowledge base not available. Please try again later.
 2025-05-31 20:12:25.098262 | shambhavi.k2024@gmail.com | USER: hello | BOT: Knowledge base not available. Please try again later.
 2025-06-05 17:03:20.102934 | kartikey8025@gmail.com | USER: hello | BOT: Knowledge base not available. Please try again later.
+2025-06-06 17:29:20.733211 | kartikey8025@gmail.com | USER: hii | BOT: Knowledge base not available. Please try again later.
