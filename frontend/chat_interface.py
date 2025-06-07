@@ -25,4 +25,5 @@ def chat_interface():
 
         email = st.session_state.get("email", "anonymous")
         log_chat(email, user_input, response)
-        st.experimental_rerun()
+        st.rerun()
+
