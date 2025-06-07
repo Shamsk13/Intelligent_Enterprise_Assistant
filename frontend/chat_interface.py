@@ -1,6 +1,3 @@
-
-
-
 from backend.chatbot_engine import query_knowledge_base
 from backend.profanity_filter import contains_profanity
 from backend.logger import log_chat
@@ -11,6 +8,8 @@ def chat_interface():
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
+    if "rerun_flag" not in st.session_state:
+        st.session_state.rerun_flag = False  # Dummy flag to trigger rerun
 
     for chat in st.session_state.chat_history:
         role = "🧑‍💼 You" if chat["sender"] == "user" else "🤖 Assistant"
@@ -30,7 +29,5 @@ def chat_interface():
         email = st.session_state.get("email", "anonymous")
         log_chat(email, user_input, response)
 
-        st.experimental_rerun()
-
-
-
+        # Toggle the flag to trigger rerun
+        st.session_state.rerun_flag = not st.session_state.rerun_flag

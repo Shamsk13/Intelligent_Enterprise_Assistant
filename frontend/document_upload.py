@@ -70,7 +70,8 @@ def document_uploader():
 
 
 
-from backend.document_processor import process_document, build_knowledge_base
+from backend.document_processor import process_document 
+from backend.knowledge_base_builder import build_knowledge_base
 
 def document_uploader():
     st.subheader("📄 Upload and Summarize Document")
